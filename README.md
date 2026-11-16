@@ -8,7 +8,7 @@ python -m pip install -r requirements.txt
 python analise.py
 ```
 
-O script usa os arquivos locais em dados/. Se faltarem, baixa o ZIP oficial da UCI. Gera ou sobrescreve resultados em resultados/. O notebook Adult_Income_Colab.ipynb permite reproduzir o trabalho no Colab: envie o notebook e execute todas as células em ordem. Se o Colab solicitar reiniciar após a instalação, reinicie e continue nas células seguintes. O notebook não foi executado como notebook; o script equivalente foi executado integralmente.
+O script usa os arquivos locais em dados/. Se faltarem, baixa o ZIP oficial da UCI. Gera ou sobrescreve resultados em resultados/. O notebook Adult_Income_Colab.ipynb permite reproduzir o trabalho no Colab.
 
 ## Protocolo e resultados
 Classe positiva >50K = 1. Semente 42. Treino oficial limpo: 32.535 registros. Teste oficial limpo: 16.248 registros. StratifiedKFold com 10 folds idênticos entre configurações. 3 árvores, 3 florestas e 4 regressões logísticas, além do baseline. Imputação, StandardScaler e OneHotEncoder dentro do Pipeline. Escolha por F1 médio. Apenas LR4 foi avaliada no teste final.
@@ -31,5 +31,3 @@ https://archive.ics.uci.edu/dataset/2/adult
 https://doi.org/10.24432/C5XW20
 Dados sob CC BY 4.0. Arquivos oficiais incluídos sem modificação; limpeza somente em memória.
 
-## Apresentação
-Seis slides. Integrante 1: slides 1 e 2. Integrante 2: slides 3 e 4. Integrante 3: slides 5 e 6. Roteiro previsto para 4min45s, com 15s de margem. Ensaiar com cronômetro: tempos são estimativas. Os nomes dos integrantes podem ser acrescentados pelo grupo.
