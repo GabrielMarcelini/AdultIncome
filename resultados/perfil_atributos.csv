@@ -1,0 +1,16 @@
+atributo,tipo,unicos_sem_ausentes,faltantes,min,max
+age,numerico,74,0,17,90
+workclass,categorico,8,2799,,
+fnlwgt,numerico,28523,0,12285,1490400
+education,categorico,16,0,,
+education-num,numerico,16,0,1,16
+marital-status,categorico,7,0,,
+occupation,categorico,14,2809,,
+relationship,categorico,6,0,,
+race,categorico,5,0,,
+sex,categorico,2,0,,
+capital-gain,numerico,123,0,0,99999
+capital-loss,numerico,99,0,0,4356
+hours-per-week,numerico,96,0,1,99
+native-country,categorico,41,857,,
+income,categorico,2,0,,

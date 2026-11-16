@@ -1,0 +1,12 @@
+DT1 {'acuracia': np.float64(0.8477), 'precisao': np.float64(0.7797), 'recall': np.float64(0.5128), 'f1': np.float64(0.6184)} s 1
+DT2 {'acuracia': np.float64(0.8555), 'precisao': np.float64(0.7398), 'recall': np.float64(0.621), 'f1': np.float64(0.6741)} s 2
+DT3 {'acuracia': np.float64(0.8151), 'precisao': np.float64(0.6159), 'recall': np.float64(0.6181), 'f1': np.float64(0.6169)} s 2
+RF1 {'acuracia': np.float64(0.86), 'precisao': np.float64(0.8004), 'recall': np.float64(0.5583), 'f1': np.float64(0.6577)} s 6
+RF2 {'acuracia': np.float64(0.8573), 'precisao': np.float64(0.7427), 'recall': np.float64(0.624), 'f1': np.float64(0.6781)} s 9
+RF3 {'acuracia': np.float64(0.8562), 'precisao': np.float64(0.744), 'recall': np.float64(0.615), 'f1': np.float64(0.6732)} s 10
+LR1 {'acuracia': np.float64(0.8501), 'precisao': np.float64(0.7343), 'recall': np.float64(0.5922), 'f1': np.float64(0.6556)} s 1
+LR2 {'acuracia': np.float64(0.851), 'precisao': np.float64(0.7337), 'recall': np.float64(0.5989), 'f1': np.float64(0.6594)} s 1
+LR3 {'acuracia': np.float64(0.851), 'precisao': np.float64(0.7329), 'recall': np.float64(0.6003), 'f1': np.float64(0.66)} s 2
+LR4 {'acuracia': np.float64(0.8079), 'precisao': np.float64(0.568), 'recall': np.float64(0.8474), 'f1': np.float64(0.6801)} s 2
+BASE {'acuracia': np.float64(0.7591), 'precisao': np.float64(0.0), 'recall': np.float64(0.0), 'f1': np.float64(0.0)} s 1
+TESTE {'config': 'LR4', 'n': 16248, 'acuracia': 0.8056376169374693, 'precisao': 0.5591453882230328, 'recall': 0.8384996092732483, 'f1': 0.6709045435598165, 'matriz': [[9871, 2538], [620, 3219]], 'n_encoded_features': 89}
